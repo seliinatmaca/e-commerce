@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(27, 173, 146, 0.908);
+  padding: 10px 20px;
+}
+header input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+header div {
+  display: flex;
+  gap: 10px;
+}
+header div button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+header div button:nth-child(1) {
+  background-color: rgba(86, 205, 27);
+}
+header div button:nth-child(2) {
+  background-color: rgb(43, 160, 196);
+}
+
+header div button:nth-child(3) {
+  background-color: rgb(206, 31, 31);
+}
+.catagories{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+.catagory {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.catagory img{
+    width: 100%;
+    border-radius: 10px;
+}
+.catagory span{
+    position: absolute;
+  bottom: 10px;
+  background-color: white;
+  width: 70%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+}
