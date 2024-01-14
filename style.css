@@ -5,8 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins';
+body {
+  font-family: "Poppins";
 }
 header {
   display: flex;
@@ -42,25 +42,28 @@ header div button:nth-child(2) {
 header div button:nth-child(3) {
   background-color: rgb(206, 31, 31);
 }
-.catagories{
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    margin-top: 40px;
+.category-wrapper {
+  padding: 50px;
 }
-.catagory {
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
 }
-.catagory img{
-    width: 100%;
-    border-radius: 10px;
+.category {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
-.catagory span{
-    position: absolute;
+.category img {
+  width: 100%;
+  border-radius: 10px;
+}
+.category span {
+  position: absolute;
   bottom: 10px;
   background-color: white;
   width: 70%;
